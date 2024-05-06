@@ -59,9 +59,13 @@ body{
     height: 60px;
     background-color: black;
     color: burlywood;
-    opacity: 0.5;
     font-size: 30px
 }
+
+.hero button:hover{
+    opacity: 0.3;
+}
+
 
 /* menu styling */
 
@@ -82,20 +86,21 @@ body{
     font-size: medium;
 }
 
-.search-space ion-icon{
-    position: absolute; 
-    top: 70%;
-    right: 70px;
-    transform: translateY(-70%);
-}
-
 @media screen and (min-width:768px){
 .menu{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 5px;
+    gap: 10px;
     margin: 10px 20px 10px;
 }
+}
+
+.menu-locations{
+    background-color: burlywood;
+    width: 250px;
+    height: 435px;
+    padding-left: 25px;
+    border-radius: 10px;
 }
 
 
@@ -112,14 +117,17 @@ body{
     align-items: center;
 }
 
-@media screen and (min-width:768px) {
     .about{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 70px;
     }
-}
 
+
+button{
+    background-color: black;
+    color: burlywood;
+}
 
 
 /* contact */
